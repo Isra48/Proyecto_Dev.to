@@ -12,6 +12,7 @@ Body h1 {
 }
 
 .navbar {
+  position: sticky;
   height: 50px;
   padding: 0.2em 5em;
   display: flex;
