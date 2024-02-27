@@ -1,0 +1,25 @@
+.layout{
+
+width: 90%;
+height: 100vh;
+display: flex;
+padding: 0em 4.5em;
+
+.sec1{
+    background-color: blue;
+    flex-grow: 1.5;
+}
+.sec2{
+    background-color: aquamarine;
+    flex-grow: 5;
+
+}
+.sec3{
+    background-color: beige;
+    flex-grow: 2;
+}
+
+
+
+
+}
