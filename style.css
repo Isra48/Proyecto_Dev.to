@@ -7,12 +7,15 @@ Body h1 {
   color: red;
 }
 
-.max_width {
+.max-width {
   max-width: 1400px;
+  justify-content: center;
 }
 
 .navbar {
   position: sticky;
+  top: 0;
+  background-color: white;
   height: 50px;
   padding: 0.2em 5em;
   display: flex;
@@ -96,6 +99,25 @@ Body h1 {
     display: none;
   }
 }
+.layout {
+  width: 90%;
+  height: 100vh;
+  display: flex;
+  padding: 0em 4.5em;
+}
+.layout .sec1 {
+  background-color: blue;
+  flex-grow: 1.5;
+}
+.layout .sec2 {
+  background-color: aquamarine;
+  flex-grow: 5;
+}
+.layout .sec3 {
+  background-color: beige;
+  flex-grow: 2;
+}
+
 * {
   margin: 0;
   padding: 0;
