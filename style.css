@@ -163,6 +163,32 @@ Body h1 {
   text-align: center;
 }
 
+.sideNav {
+  padding: 1em 0.5em;
+}
+.sideNav .list {
+  list-style: none;
+  padding: 0.5em 1em;
+  margin-top: 0.1em;
+  font-size: 14pt;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.sideNav .list .linkHover {
+  word-spacing: 5px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.sideNav .list svg {
+  width: 24px;
+}
+.sideNav .list:hover {
+  background-color: #e2e3f3;
+  color: #2f3ab2;
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
