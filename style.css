@@ -189,6 +189,12 @@ Body h1 {
   text-decoration: underline;
 }
 
+.socialLinks_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 0.8em;
+}
+
 * {
   margin: 0;
   padding: 0;
