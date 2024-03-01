@@ -195,6 +195,40 @@ Body h1 {
   padding: 0 0.8em;
 }
 
+.populartags_container {
+  padding: 0em 1em;
+  width: 250px;
+  height: 300px;
+  overflow: auto;
+}
+.populartags_container .list {
+  list-style: none;
+  padding: 0.5em 1em;
+  color: #c3c3c3;
+  margin-top: 0.1em;
+  font-size: 14pt;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.populartags_container .list a {
+  color: #404040;
+  opacity: 0.8;
+}
+.populartags_container .list .linkHover {
+  word-spacing: 5px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.populartags_container .list svg {
+  width: 24px;
+}
+.populartags_container .list:hover {
+  background-color: #e2e3f3;
+  color: #2f3ab2;
+  text-decoration: underline;
+}
+
 * {
   margin: 0;
   padding: 0;
